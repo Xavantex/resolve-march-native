@@ -6,7 +6,7 @@ DESTDIR = /
 PREFIX = /usr/local
 
 check:
-	py.test --doctest-modules
+	py.test-3 --doctest-modules
 
 clean:
 	find -type f -name '*.pyc' -delete
